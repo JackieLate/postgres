@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  myapp:
+    build: .
+    environment:
+      
+GITHUB_TOKEN=${GITHUB_TOKEN}
+  ports:
+"8080:8080"
